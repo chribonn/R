@@ -1,6 +1,6 @@
 library(Quandl)
 Quandl.auth("GgnxpyU***bY")
-# Employment numbers (thousands of people") for Lansing, Michigan
+# Employment numbers (thousands of people) for Lansing, Michigan
 NonFarm = Quandl("FRED/LANS626NAN")
 CivLaborForce = Quandl("FRED/LANS626LFN")
 PerCapitaIncome = Quandl("FRED/LANS626PCPI")
